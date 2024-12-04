@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat ;
+}
+body{
+    background-color:#ffff;
+}
+.section-padding{
+    padding: 100px 0;
+
+}
+.carousel-iteam{
+    height: 100vh;
+    min-height:300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.imgbox{
+    height:60px;
+    border-radius: 50%;
+    
+}
+.logo{
+    height: 40;
+    width: 40;
+    border-radius: 50%;
+}
+.corousel-caption h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.corousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight:500;
+}
+
+.navba.light .navbar-brand{
+    color:black;
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navba.light.navbar-brand:focus,
+.navba.light.navbar-brand:hover{
+     color:black;
+}
+.navba.light.navbar-brand.navbar-link{
+    color:#000;
+}
+.w-100{
+    height: 100vh;
+}
+.services.card-body i{
+    font-size: 50px;
+}
+.team .card-body{
+    font-size: 20px;
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15)
+}
+
+
+/* --------------------------card2--------------------- */
+span{
+    color:greenyellow
+}
+
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#tpc:hover{
+    transform:translatey(-40px);
+
+}
+.
+
+/* card2 */
+
+
+/* -----------------------------------------------------------------Team member page start------------------------------------------------------------------------------------------------------ */
+
+
+.team-members
+{
+    min-height: 80vh;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+.team-overall-card
+{
+    min-height: 70vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.member-card
+{
+    height: 400px;
+    width: 310px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+    border-radius: 10px;
+    /* background-color: white; */
+    border: 1px solid white;
+}
+.member-card img
+{
+    height: 75%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+}
+.member-name
+{
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 1s;
+    background-color:gold;
+    color:black;
+    
+}
+.member-icon
+{
+    min-height: 75%;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.384);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+.member-icon i
+{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+    opacity: 0;
+}
+
+.member-card:hover
+{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 2px grey;
+}
+.member-card:hover >img 
+{
+    transform: scale(1.1);
+}
+.member-card:hover .member-icon,.member-icon i
+{
+    opacity: 1;
+}
+.member-card:hover .member-name
+{
+    background-color:white;
+    color: black;
+}
+
+
+/* ------------------------------contect us------------------------------------ */
+.contact-us {
+    margin: 0px;
+    padding: 0px;
+   
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.contact-us h1{
+    margin-top: 78px;  
+
+}
+.forms {
+    margin-top: 50px;   
+    width: 80%;
+    min-height: 70vh;
+    background-color: black;
+    padding: 10px;
+}
+.f-l-name {
+   
+   width: 100%;
+   min-height: 50px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 15px;
+}
+.f-l-name input {
+    margin-top: 50px;
+    width: 50%;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    
+}
+.m-email {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+.m-email input {
+    width: 50%;
+    min-height: 45px;
+    padding: 10px;
+    outline: none;
+   
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    margin-top: 15px;
+    padding: 10px;
+    outline: none;
+}
+.btn-1{
+    background-color: greenyellow;
+    padding: 10px ;
+   align-items: center;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* ---------------------footer------------------- */
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+
+}
+.footer .social a{
+    font-size:24px;
+    color:white;
+    border: 2px solid gold;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px gold,0 0 10px gold;
+    transition: 0.3s ease;
+
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color:gold;
+    border: 2px solid gold;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color:white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid goldenrod;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+}
+
+
+ responsive css
+@media only screen and(min-width:768px)and (max-width:991){
+.carousel-caption{
+    bottom:370px;
+}
+.corousel-caption p{
+    width: 100%;
+}
+.card{
+    margin-bottom: 30px;
+}
+.img-area img{
+    width:100%;
+}
+}
+
+@media only screen and (max-width: 1500px){
+    .navbar-nav{
+        text-align: center;
+    
+    }
+    .corousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+
+    }
+    .carousel-caption a{
+        padding:10px 15px;
+    }
+    .carousel-caption p{
+        width:100%;
+        line-height: 1.6;
+        font-size:12px
+    }
+
+}
